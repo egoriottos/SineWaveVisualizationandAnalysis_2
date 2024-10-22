@@ -25,7 +25,7 @@ public class Main extends JFrame {
     private DefaultCategoryDataset dataset;
     private boolean showOriginal = true; // Флаг для отображения оригинального сигнала
     private double scaleY = 4.0; // Масштаб для оси Y диаграммы
-    private double barWidth = 5.0+; // Ширина столбиков
+    private double barWidth = 5.0; // Ширина столбиков
 
     private double[] originalSignal; // Оригинальный сигнал
     private double[] restoredSignal; // Восстановленный сигнал
